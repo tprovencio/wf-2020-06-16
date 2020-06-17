@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+
+.center-box {
+  background-color: darkblue;
+  /* height: 100px; */
+  padding: 50px;
+}
+
+.center-item {
+  height: 50px;
+  width: 50px;
+  background-color: beige;
+  margin: 0 auto;
+}
+
+div#header {
+  background: lightblue;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#header > img {
+  height: 30px;
+}
+
+#header ul {
+  display: flex;
+  list-style: none;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+/* similar result as above */
+/* #header li {
+  display: inline-block;
+} */
+
+#header li {
+  /*  top right bottom left */
+  /* margin: 0 0 0 0; */
+  /* top/bottom left/right */
+  margin: 0 15px;
+  /* margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px; */
+}
+
+/* specificity */
+#header li > a {
+  text-decoration: none;
+  color: black;
+}
+
+/* a {
+  color: orange;
+} */
+
+h1,
+div#header > ul > li > a {
+  /* more specific than above */
+  color: white;
+}
