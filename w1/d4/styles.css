@@ -1,0 +1,125 @@
+/* Basic Reset */
+* {
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+}
+
+/* Main wrapper */
+.wrapper {
+  width: 1080px;
+}
+
+/* Header */
+h1,
+h2 {
+  display: inline-block;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+/* Main */
+main {
+  background-color: purple;
+  padding: 15px;
+}
+
+#main-image {
+  width: 500px;
+  border: 5px solid lightgray;
+}
+
+/* Card */
+.card {
+  display: inline-block;
+  vertical-align: top;
+  background-color: white;
+  /* padding: 10px; */
+}
+
+.title {
+  background-color: grey;
+  color: white;
+  padding: 10px;
+}
+
+.top-section {
+  width: 520px;
+  margin-left: 10px;
+  height: 332px;
+}
+/* #test {
+  background-image: url("images/photo_of_me.jpg");
+  height: 200px;
+  background-size: cover;
+} */
+
+p {
+  padding: 10px;
+}
+
+a {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  /* dont use this! */
+  /* padding: 50px; */
+  display: inline-block;
+}
+
+.bottom-section {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-section > .card {
+  width: 32%;
+}
+
+.bottom-section > .card > img {
+  width: 100%;
+}
+
+/* .bottom-section > .card .technologies { */
+.technologies {
+  width: 50px;
+}
+
+.bottom-section .tech {
+  padding: 10px;
+}
+
+button {
+  padding: 5px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  background-color: greenyellow;
+  box-shadow: 5px 5px lightgrey;
+}
+
+/* Footer */
+footer {
+  padding: 15px;
+  text-align: center;
+}
+/* footer div:last-child { */
+.flex {
+  display: flex;
+  justify-content: center;
+  /* background-color: orange; */
+}
+/* footer div:last-child:hover {
+  background-color: red;
+} */
+
+footer img {
+  width: 20px;
+  height: 20px;
+}
